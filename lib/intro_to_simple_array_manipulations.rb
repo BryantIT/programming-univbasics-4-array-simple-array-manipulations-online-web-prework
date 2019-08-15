@@ -9,4 +9,7 @@ def using_push (colors_in_the_rainbow, next_color)
     bouroughs_in_nyc.unshift("Staten Island")
   end
   
-  def using_pop ()
+  def using_pop (continents)
+    continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+    continents.pop
+  end
